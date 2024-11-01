@@ -1,0 +1,99 @@
+# Copyright (C) 2019 Stampay GmbH
+# This file is distributed under the same license as the WooCommerce stampayGO Checkout Payment Gateway plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce stampayGO Checkout Payment Gateway 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/stampaygo-checkout-payment-gateway-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-14T10:50:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: stampaygo\n"
+
+#. Plugin Name of the plugin
+msgid "stampayGO Checkout Payment Gateway for woocommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://stampaygo.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Simply accept payments with stampayGO in the WooCommerce Shop via credit card, PayPal, Alipay, Apple Pay and Google Pay as well as Klarna."
+msgstr ""
+
+#. Author of the plugin
+msgid "Stampay GmbH"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://stampay.com"
+msgstr ""
+
+#: class-wc-gateway-stampaygo.php:60
+msgid "stampayGO redirects customers to stampayGO, allowing them to pay with credit card, PayPal, Alipay, Apple Pay and Google Pay as well as Klarna"
+msgstr ""
+
+#: class-wc-gateway-stampaygo.php:80
+msgid "SANDBOX ENABLED. You will test against demo environment. You will not be charged."
+msgstr ""
+
+#: class-wc-gateway-stampaygo.php:178
+msgid "stampayGO does not support your store currency."
+msgstr ""
+
+#. translators: %s: currency code.
+#: includes/class-wc-gateway-stampaygo-ipn-handler.php:122
+msgid "Validation error: stampayGO currencies do not match (code %s)."
+msgstr ""
+
+#. translators: %s: Amount.
+#: includes/class-wc-gateway-stampaygo-ipn-handler.php:138
+msgid "Validation error: stampayGO amounts do not match (gross %s)."
+msgstr ""
+
+#: includes/settings-stampaygo.php:12
+msgid "Enable stampayGO Payment"
+msgstr ""
+
+#: includes/settings-stampaygo.php:19
+msgid "stampayGO"
+msgstr ""
+
+#: includes/settings-stampaygo.php:27
+msgid "Pay with stampayGO and use credit card, PayPal, Alipay, Apple Pay and Google Pay as well as Klarna."
+msgstr ""
+
+#: includes/settings-stampaygo.php:35
+msgid "stampayGO identifier"
+msgstr ""
+
+#. translators: %s: URL
+#: includes/settings-stampaygo.php:37
+msgid "You get this number from us after successfully registering your shop in our system. Pleas visit <a href=\"%s\">stampaygo.com</a> for more information"
+msgstr ""
+
+#: includes/settings-stampaygo.php:40
+msgid "stampayGO demo"
+msgstr ""
+
+#: includes/settings-stampaygo.php:42
+msgid "Enable stampayGO demo mode"
+msgstr ""
+
+#: includes/settings-stampaygo.php:44
+msgid "stampayGO demo mode can be used to test payments."
+msgstr ""
+
+#. translators: %s: URL
+#: includes/settings-stampaygo.php:52
+msgid "Log stampayGO events, such as IPN requests, inside %s Note: this may log personal information. We recommend using this for debugging purposes only and deleting the logs when finished."
+msgstr ""
+
+#: includes/settings-stampaygo.php:57
+msgid "Please enter a prefix for your invoice numbers. If you use your stampayGO account for multiple stores ensure this prefix is unique as stampayGO will not allow orders with the same invoice number."
+msgstr ""
